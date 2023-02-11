@@ -40,6 +40,7 @@ input {
 input[type="text"] {
     flex-basis: 80%;
 }
+
 input[type="button"]#new-task-button {
     flex-grow: 1;
 }
@@ -51,4 +52,5 @@ input[type="button"] {
 
 .complete {
     text-decoration: line-through;
+    color: grey;
 }
